@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Praphulla Bhawsar',
     // Main Site Title
-    title: `Praphulla Bhawsar | Wannabe Psychohistorian`,
+    title: `Praphulla Bhawsar`,
     // Description that goes under your name in main bio
     description: `Data Engineer | Full Stack Developer | Geekus Maximus`,
     // Optional: Twitter account handle
@@ -21,57 +21,55 @@ module.exports = {
     education: [
       {
         name: 'M.S. in Computer Science',
-        description:
-          'NYU Tandon School of Engineering | Aug 2017 - May 2019'
+        description: 'New York University | May 2019'
       },
       {
         name: 'B.Eng in Computer Engineering',
-        description:
-          'University of Mumbai | Aug 2011 - Jun 2015'
-      },
+        description: 'University of Mumbai | Jun 2015'
+      }
     ],
     projects: [
       {
         name: 'EpiPath for Digital Pathology',
         description:
-          'Currently developing a zero-cost Annotation, AI Inference and Active Learning engine directly from the web browser on Digital Medical Images in Box.',
+          'Currently developing a zero-cost web app for Annotation, AI Modeling and Active Learning on Digital Medical Images in Box directly from the browser.',
         link: 'https://episphere.github.io/path',
       },
       {
         name: 'Galaxy Morphology Classification Via Transfer Learning',
         description:
-          'Trained a VGG-19 CNN using the Keras API to classify galaxies by morphology from raw sky survey images. Performed comparisons between uninitialized models and those pre-trained on different datasets, thus demonstrating advantages of transfer learning on even the simplest tasks.',
+          'Trained a VGG-19 CNN using the Keras API to classify galaxies by morphology from raw sky survey images, demonstrating the advantages of transfer learning on astronomical datasets over uninitialized models.',
         link: 'https://github.com/PrafulB/Galaxy_Merger_Detection_Using_CNNs',
-      },
-      {
-        name: 'DisTwitter',
-        description:
-          'A simplistic Twitter clone to run on a distributed architecture with Golang and Protobufs. Integrated a rudimentary file-based database using Viewstamped Replication, along with a neat front-end in ReactJS.',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Rock-Paper-Scissors with AI',
-        description:
-          'Designed a rock-paper-scissors game against an AI. Performed contour detection and feature extraction on webcam feed, followed by real-time gesture recognition using an SVM classifier.',
-        link: '',
       }
+      // {
+      //   name: 'DisTwitter',
+      //   description:
+      //     'A simplistic Twitter clone to run on a distributed architecture with Golang and Protobufs. Integrated a rudimentary file-based database using Viewstamped Replication, along with a neat front-end in ReactJS.',
+      //   link: 'https://github.com/RyanFitzgerald/devfolio',
+      // },
+      // {
+      //   name: 'Rock-Paper-Scissors with AI',
+      //   description:
+      //     'Designed a rock-paper-scissors game against an AI. Performed contour detection and feature extraction on webcam feed, followed by real-time gesture recognition using an SVM classifier.',
+      //   link: '',
+      // }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'National Cancer Institute',
-        description: 'Data Enginer, Mar 2019 - Present',
-        link: '',
+        description: 'Data Engineer | Mar 2019 - Present',
+        link: 'https://www.cancer.gov/',
       },
       {
         name: 'NYU Student Tech Innovation',
-        description: 'Lead Developer, Sept 2017 - Feb 2019',
+        description: 'Lead Developer | Sept 2017 - Feb 2019',
         link: '',
       },
       {
         name: 'Reliance Jio, India',
-        description: 'Full Stack Developer, June 2015 - July 2017',
-        link: '',
+        description: 'Full Stack Developer | June 2015 - July 2017',
+        link: 'https://www.jio.com/',
       },
     ],
     publications: [
@@ -95,7 +93,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Git, Amazon Web Services (AWS), Google Cloud Platform(GCP), Docker, Tableau, D3.js, Plotly.js, Nginx',
+          'Git, Amazon Web Services (AWS), Google Cloud Platform (GCP), Docker, Tableau, D3.js, Plotly.js, Nginx',
       },
     ],
   },
@@ -157,7 +155,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/profile2.jpg`,
+        icon: `src/images/icon.png`,
       },
     },
   ],

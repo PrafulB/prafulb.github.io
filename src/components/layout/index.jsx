@@ -15,6 +15,7 @@ const Layout = ({ children }) => {
         height="784"
         fill="none"
         viewBox="0 0 404 784"
+        style={{pointerEvents: 'none'}}
       >
         <defs>
           <pattern
@@ -42,6 +43,7 @@ const Layout = ({ children }) => {
         />
       </svg>
       <div className={classes.wrapper}>{children}</div>
+      <span style={{color: "rgba(120, 120, 120)", float: 'right', marginRight: "0.5em", zIndex: 10}}><i>Template by <u><a href="https://github.com/RyanFitzgerald/devfolio" target="__blank">Ryan Fitzgerald</a></u></i></span>
     </div>
   );
 };

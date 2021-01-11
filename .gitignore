@@ -1,2 +1,5 @@
+.cache
+LICENSE.md
+pnpm-lock.yaml
 public
 node_modules

@@ -29,16 +29,16 @@ const Index = ({ data }) => {
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
-      {education && education.length && <SectionEducation education={education} />}
       {projects && projects.length && <SectionProjects projects={projects} />}
-      {!noBlog && <SectionBlog posts={posts} />}
+      {education && education.length && <SectionEducation education={education} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
-      )}
+        )}
       {publications && publications.length && (
         <SectionPublications publications={publications} />
-      )}
+        )}
       {skills && skills.length && <SectionSkills skills={skills} />}
+      {!noBlog && <SectionBlog posts={posts} />}
     </Layout>
   );
 };
