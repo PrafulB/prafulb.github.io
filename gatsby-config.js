@@ -34,7 +34,7 @@ module.exports = {
       {
         name: 'EpiPath for Digital Pathology',
         description:
-          'Currently developing an open source zero-cost Annotation and AI Inference engine directly from the web browser on Digital Medical Images in Box.',
+          'Currently developing a zero-cost Annotation, AI Inference and Active Learning engine directly from the web browser on Digital Medical Images in Box.',
         link: 'https://episphere.github.io/path',
       },
       {
