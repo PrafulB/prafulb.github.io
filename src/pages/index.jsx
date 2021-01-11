@@ -60,7 +60,6 @@ export const pageQuery = graphql`
         education {
           name
           description
-          link
         }
         projects {
           name
