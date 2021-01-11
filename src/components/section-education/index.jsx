@@ -13,7 +13,6 @@ const SectionEducation = ({ education }) => {
           key={degree.name}
           name={degree.name}
           description={degree.description}
-          link={degree.link}
         />
       ))}
     </Section>
