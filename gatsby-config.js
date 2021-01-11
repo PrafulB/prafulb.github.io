@@ -20,10 +20,14 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     education: [
       {
-        name: 'EpiPath for Digital Pathology',
+        name: 'M.S. in Computer Science',
         description:
-          'Currently developing an open source zero-cost Annotation and AI Inference engine directly from the web browser on Digital Medical Images in Box.',
-        link: 'https://episphere.github.io/path',
+          'NYU Tandon School of Engineering | Aug 2017 - May 2019'
+      },
+      {
+        name: 'B.Eng in Computer Engineering',
+        description:
+          'University of Mumbai | Aug 2011 - Jun 2015'
       },
     ],
     projects: [
