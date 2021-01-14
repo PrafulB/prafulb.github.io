@@ -17,7 +17,6 @@ const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
   const education = get(data, 'site.siteMetadata.education', false); 
   const projects = get(data, 'site.siteMetadata.projects', false);
-  console.log(education, projects)
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const publications = get(data, 'site.siteMetadata.publications', false);
