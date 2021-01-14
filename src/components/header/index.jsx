@@ -38,7 +38,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <ul className={classes.list}>
           {twitter && (
             <li className={classes.item}>
-              <a target="__blank"
+              <a target="_blank" rel="noopener noreferrer"
                 className={classes.link}
                 href={`https://twitter.com/${twitter}`}
               >
@@ -48,21 +48,21 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {github && (
             <li className={classes.item}>
-              <a target="__blank" className={classes.link} href={github}>
+              <a target="_blank" rel="noopener noreferrer" className={classes.link} href={github}>
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a target="__blank" className={classes.link} href={linkedin}>
+              <a target="_blank" rel="noopener noreferrer" className={classes.link} href={linkedin}>
                 LinkedIn
               </a>
             </li>
           )}
           {resume && (
             <li className={classes.item}>
-              <a target="__blank" className={classes.link} href={resume}>
+              <a target="_blank" rel="noopener noreferrer" className={classes.link} href={resume}>
                 CV
               </a>
             </li>
