@@ -61,13 +61,13 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "cp \"Praphulla Resume.pdf\" ./public/ && gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "cp \"Praphulla Bhawsar CV.pdf\" ./public/ && gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "https://github.com/prafulb/prafulb.github.io"
   },
   "bugs": {
-    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
+    "url": "https://github.com/prafulb/prafulb.github.io/issues"
   }
 }

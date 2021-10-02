@@ -69,6 +69,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SiteSiteMetadata {
       siteUrl: String
       name: String
+      pronunciation: String
       title: String
       description: String
       author: String

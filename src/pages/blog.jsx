@@ -31,6 +31,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         name
+        pronunciation
         title
         description
         about

@@ -24,7 +24,9 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
       >
         {link ? linkContent : name}
       </h3>
-      <p className={classes.description}>{description}</p>
+      {description.split("\n").map(desc => 
+        <p className={classes.description}>{desc}</p>
+      )}
     </div>
   );
 };

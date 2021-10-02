@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://prafulb.github.io/`,
+    siteUrl: `http://localhost:9000/`,
     // Your Name
     name: 'Praphulla Bhawsar',
+    pronunciation: '( pruh-full bahv-sahr )',
     // Main Site Title
     title: `Praphulla Bhawsar`,
     // Description that goes under your name in main bio
-    description: `AI Engineer | PhD Student | Geekus Maximus`,
+    description: `AI Engineer | PhD Student | Data Scientist-in-training | Geekus Maximus`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -20,21 +21,21 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     education: [
       {
-        name: 'Ph.D in Bioinformatics',
-        description: 'Stony Brook University | Present'
+        name: 'Ph.D. in Bioinformatics',
+        description: 'Stony Brook University  |  Aug 2021 - Ongoing'
       },
       {
         name: 'M.S. in Computer Science',
-        description: 'New York University | May 2019'
+        description: 'New York University  |  May 2019'
       },
       {
         name: 'B.Eng in Computer Engineering',
-        description: 'University of Mumbai | Jun 2015'
+        description: 'University of Mumbai  |  Jun 2015'
       }
     ],
     projects: [
       {
-        name: 'EpiPath for Digital Pathology',
+        name: 'EpiPath: Digital Pathology in the Browser',
         description:
           'Currently developing a zero-cost web app for Annotation, AI Modeling and Active Learning on Digital Medical Images in Box directly from the browser.',
         link: 'https://episphere.github.io/path',
@@ -42,7 +43,7 @@ module.exports = {
       {
         name: 'Galaxy Morphology Classification Via Transfer Learning',
         description:
-          'Trained a VGG-19 CNN using the Keras API to classify galaxies by morphology from raw sky survey images, demonstrating the advantages of transfer learning on astronomical datasets over uninitialized models.',
+          'Trained a VGG-19 CNN using Keras to classify galaxies by morphology from raw sky survey images, demonstrating the advantages of transfer learning on astronomical datasets.',
         link: 'https://github.com/PrafulB/Galaxy_Merger_Detection_Using_CNNs',
       }
       // {
@@ -62,24 +63,24 @@ module.exports = {
     experience: [
       {
         name: 'National Cancer Institute',
-        description: 'Doctoral Fellow | Aug 2021 - Present\nData Engineer | Mar 2019 - Aug 2021',
+        description: 'Doctoral Fellow  |  Aug 2021 - Present\nData Engineer  |  Mar 2019 - Aug 2021',
         link: 'https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/dserg/bhawsar-praphulla',
       },
       {
         name: 'NYU Student Tech Innovation',
-        description: 'Lead Developer | Sept 2017 - Feb 2019',
+        description: 'Lead Developer  |  Sept 2017 - Feb 2019',
         link: '',
       },
       {
         name: 'Reliance Jio, India',
-        description: 'Full Stack Developer | June 2015 - July 2017',
+        description: 'Full Stack Developer  |  June 2015 - July 2017',
         link: 'https://www.jio.com/',
       },
     ],
     publications: [
       {
         name: 'Browser-based data annotation, active learning, and real-time distribution of artificial intelligence models: from tumor tissue microarrays to COVID-19 radiology',
-        authors: 'Bhawsar PM, Abubakar M, Schmidt MK, Camp NJ, Cessna MH, Duggan MA, Garcia.Closas M, Almeida JS, J Pathol Inform 2021',
+        authors: 'Bhawsar PM, Abubakar M, Schmidt MK, Camp NJ, Cessna MH, Duggan MA, Garcia.Closas M, Almeida JS, Journal of Pathology Informatics 2021',
         link: 'https://www.jpathinformatics.org/text.asp?2021/12/1/38/326825',
       },
       {
@@ -89,7 +90,7 @@ module.exports = {
       },
       {
         name: 'Mortality Tracker: the COVID-19 case for real time web APIs as epidemiology commons',
-        authors: 'Almeida, J. S., Shiels, M., Bhawsar, P.M.S. et al., Bioinformatics 2021',
+        authors: 'Almeida, J. S., Shiels, M., Bhawsar, P. et al., Bioinformatics 2020',
         link: 'https://doi.org/10.1093/bioinformatics/btaa933',
       }
     ],
@@ -98,7 +99,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript, TensorFlow(+JS), Node.js, Python, PyTorch, Keras, OpenCV(+JS), Go, TypeScript, ReactJS, React Native, HTML, CSS',
+          'JavaScript, TensorFlow(+.js), Node.js, Python, PyTorch, Keras, OpenCV(+.js), Go, TypeScript, ReactJS, React Native, HTML, CSS',
       },
       {
         name: 'Databases',

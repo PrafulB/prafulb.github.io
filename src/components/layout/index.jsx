@@ -1,9 +1,10 @@
 import React from 'react';
 
 const classes = {
-  wrapper: 'p-8 relative max-w-screen-xl xs:p-24',
-  outerWrapper: 'relative',
+  wrapper: 'p-8 relative max-w-screen-xl xs:p-24 dark:bg-gray-700',
+  outerWrapper: 'min-w-full min-h-screen relative dark',
   svg: 'hidden fixed transform right-0 top-5 z-0 xl:block',
+  templateWrapper: 'absolute text-gray-600 dark:text-gray-300 right-0 bottom-0 pr-3 pb-1 italic'
 };
 
 const Layout = ({ children }) => {
@@ -43,7 +44,7 @@ const Layout = ({ children }) => {
         />
       </svg>
       <div className={classes.wrapper}>{children}</div>
-      <span style={{color: "rgba(120, 120, 120)", float: 'right', marginRight: "0.5em", zIndex: 10}}><i>Template by <u><a href="https://github.com/RyanFitzgerald/devfolio" target="__blank">Ryan Fitzgerald</a></u></i></span>
+      <div className={classes.templateWrapper}>Template by <u><a href="https://github.com/RyanFitzgerald/devfolio" target="__blank">Ryan Fitzgerald</a></u></div>
     </div>
   );
 };

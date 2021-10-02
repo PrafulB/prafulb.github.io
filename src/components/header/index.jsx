@@ -9,12 +9,13 @@ const classes = {
   imageWrapper: 'w-full max-w-150',
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
-  name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
-  description: 'text-gray-600',
+  name: 'text-5xl text-gray-900 dark:text-gray-100 font-bold leading-tight hover:text-black dark:hover:text-white',
+  pronunciation: 'text-sm text-gray-500 dark:text-gray-400 font-medium pl-2 hidden lg:inline',
+  description: 'text-gray-600 dark:text-gray-300',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
   link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+    'inline-block py-2 font-semibold text-xs text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -33,6 +34,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
       <div className={classes.contentWrapper}>
         <h1 className={classes.name}>
           <Link to="/">{metadata.name}</Link>
+          <span className={classes.pronunciation}>{metadata.pronunciation}</span>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
