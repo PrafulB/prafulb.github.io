@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Praphulla Bhawsar`,
     // Description that goes under your name in main bio
-    description: `Data Engineer | Full Stack Developer | Geekus Maximus`,
+    description: `AI Engineer | PhD Student | Geekus Maximus`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -19,6 +19,10 @@ module.exports = {
     // about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     education: [
+      {
+        name: 'Ph.D in Bioinformatics',
+        description: 'Stony Brook University | Present'
+      },
       {
         name: 'M.S. in Computer Science',
         description: 'New York University | May 2019'
@@ -58,8 +62,8 @@ module.exports = {
     experience: [
       {
         name: 'National Cancer Institute',
-        description: 'Data Engineer | Mar 2019 - Present',
-        link: 'https://www.cancer.gov/',
+        description: 'Doctoral Fellow | Aug 2021 - Present\nData Engineer | Mar 2019 - Aug 2021',
+        link: 'https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/dserg/bhawsar-praphulla',
       },
       {
         name: 'NYU Student Tech Innovation',
@@ -74,8 +78,18 @@ module.exports = {
     ],
     publications: [
       {
-        name: '(2020) Mortality Tracker: the COVID-19 case for real time web APIs as epidemiology commons',
-        authors: 'Almeida, J. S., Shiels, M., Bhawsar, P., Patel, B., Nemeth, E., Moffitt, R., Closas, M. G., Freedman, N., & Berrington, A.',
+        name: 'Browser-based data annotation, active learning, and real-time distribution of artificial intelligence models: from tumor tissue microarrays to COVID-19 radiology',
+        authors: 'Bhawsar PM, Abubakar M, Schmidt MK, Camp NJ, Cessna MH, Duggan MA, Garcia.Closas M, Almeida JS, J Pathol Inform 2021',
+        link: 'https://www.jpathinformatics.org/text.asp?2021/12/1/38/326825',
+      },
+      {
+        name: 'Genomic and evolutionary classification of lung cancer in never smokers',
+        authors: 'Zhang, T., Joubert, P., Ansari-Pour, N. et al., Nature Genetics 2021',
+        link: 'https://doi.org/10.1038/s41588-021-00920-0',
+      },
+      {
+        name: 'Mortality Tracker: the COVID-19 case for real time web APIs as epidemiology commons',
+        authors: 'Almeida, J. S., Shiels, M., Bhawsar, P.M.S. et al., Bioinformatics 2021',
         link: 'https://doi.org/10.1093/bioinformatics/btaa933',
       }
     ],
@@ -84,7 +98,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript, TensorFlow, Node.js, Python, PyTorch, Keras, Golang, TypeScript, ReactJS, HTML, CSS, PHP',
+          'JavaScript, TensorFlow(+JS), Node.js, Python, PyTorch, Keras, OpenCV(+JS), Go, TypeScript, ReactJS, React Native, HTML, CSS',
       },
       {
         name: 'Databases',
