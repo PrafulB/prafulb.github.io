@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Praphulla Bhawsar]]></title><description><![CDATA[AI Engineer | PhD Student | Geekus Maximus]]></description><link>http://localhost:9000</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Feb 2022 23:41:53 GMT</lastBuildDate><item><title><![CDATA[insertAdjacentHTML >>>> innerHTML]]></title><description><![CDATA[If you wanted to nest a div inside another using JS, you might perhaps do this: The seasoned developer will see the flaw here immediately. I…]]></description><link>http://localhost:9000/blog/insertAdjacentHTML/</link><guid isPermaLink="false">http://localhost:9000/blog/insertAdjacentHTML/</guid><pubDate>Sun, 10 Jan 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If you wanted to nest a div inside another using JS, you might perhaps do this:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Praphulla Bhawsar]]></title><description><![CDATA[AI Engineer | PhD Student | Geekus Maximus]]></description><link>http://localhost:9000</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Feb 2022 19:20:46 GMT</lastBuildDate><item><title><![CDATA[ImageBox3: The No-Server Whole Slide Image Tile Server]]></title><link>http://localhost:9000/blog/ImageBox3/</link><guid isPermaLink="false">http://localhost:9000/blog/ImageBox3/</guid><pubDate>Wed, 16 Feb 2022 11:03:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd9b3a164dbac83a6e747f1f855a0fed/29114/ImageBox3_Poster.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAC4jAAAuIwF4pT92AAADUklEQVQ4yzWUyXLjVBSG/Z48Ty9ZwA56x4IFpCqhu4oiQApSJI6dTjpxPMqDpCvZmufRsdt8HDvF4tS9kkr/PecfbseyLMIgIE5SUt8mXj0SzXuk5gB9oTEeT5hNp4xGI5bLBZPJmLHsZ7MZmqbhui5JkhAIxhGrc9y0bUNV1cwnA15ufmV8d8n04ZqHh0/c3Hbp9e+57d6d1ufBC/37+7f3vT6D52e22y11XZ9AO77vU5YlcZzguD5rY4E+eUIfP2JpA6lnqSes+QurYZ/NciT7AWryQBp6/HV9w/fv35NlOUesjh9G1FVJW+Vsm5JdnVHFLrah4Vg6lj7HWEywVhqmMce29dNz6JgcygBzfM/1n78JRk6apXRi16TNAhzbxNsolL4gcG0OAp5HIXmeU0ilUvsgotJt6jwi9jf4akaixnhqSags+t0endQakQU2U23Oer3GMA2yJMMc3dD/4we2ApI3NYei5qx7zncXX9OKOGvXYeN4jOW/i58usGY6Hz58fANMPYv5SrHeeKfavR5Q2gOf/vmZWhRMi0LGazh7/psfux9pLZPB8OWk/Gg4ZCBCNWVKEkcysmfTZBuUWMVXT5ShRpuvKQWkzrLTuEcF4zRlnxZIu2IzB1u4tUwdz9mQJxGHNicWijpRkvNaBURKAI0e9uxKlOxRNy11WZ06XCqX2WpDlcY0VSGH5XDYQe3JAYp/24z9bvdmm9RTQr5wMdFQyhaTHrtKKaXzWlQtigzdkgnWjogV4xguZRLirkVEa0lgiyAi4q4piEIBzNSQ2DGYTLVTCqbzuYyWc3X9Le/OvhJVZzRi/NSLuby946r7mWwdYiqD6WyOtliiG4q9uCI+Aqa+JaOFovIUY7XEshWVtD7+fM755TtKsURdVRLLiNu7R3rdR+KNL5HbnKJn6isWS/kvSghD4TCMYoz+iPV4QVMXNDLia1uylfS0kfhNOExEkFxEKpKCNCrYvzbEgYchNBheiOUGPDkpG18Aj+H+/Ztf0K7HHIC22bL/8oVSunIlSm+XwhLHcaR7C2UpbKks9sUmISvHx/J87ED4lbUzeRniiwcjtSaVj752jJwlSfAlORvmwulxtP9vl+O6Wq2EQ4VpmidwS/a+5+FJ/QcFmkTET9i8jAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ImageBox3 Poster&quot;
+        title=&quot;ImageBox3&quot;
+        src=&quot;/static/dd9b3a164dbac83a6e747f1f855a0fed/fcda8/ImageBox3_Poster.png&quot;
+        srcset=&quot;/static/dd9b3a164dbac83a6e747f1f855a0fed/12f09/ImageBox3_Poster.png 148w,
+/static/dd9b3a164dbac83a6e747f1f855a0fed/e4a3f/ImageBox3_Poster.png 295w,
+/static/dd9b3a164dbac83a6e747f1f855a0fed/fcda8/ImageBox3_Poster.png 590w,
+/static/dd9b3a164dbac83a6e747f1f855a0fed/efc66/ImageBox3_Poster.png 885w,
+/static/dd9b3a164dbac83a6e747f1f855a0fed/c83ae/ImageBox3_Poster.png 1180w,
+/static/dd9b3a164dbac83a6e747f1f855a0fed/29114/ImageBox3_Poster.png 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[insertAdjacentHTML >>>> innerHTML]]></title><description><![CDATA[If you wanted to nest a div inside another using JS, you might perhaps do this: The seasoned developer will see the flaw here immediately. I…]]></description><link>http://localhost:9000/blog/insertAdjacentHTML/</link><guid isPermaLink="false">http://localhost:9000/blog/insertAdjacentHTML/</guid><pubDate>Sun, 10 Jan 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If you wanted to nest a div inside another using JS, you might perhaps do this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;div1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;“div”&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 div1&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;div1&quot;&lt;/span&gt;
 div2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;“div”&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
