@@ -8,7 +8,7 @@ module.exports = {
     // Main Site Title
     title: `Praphulla Bhawsar`,
     // Description that goes under your name in main bio
-    description: `AI Engineer | PhD Student | Data Scientist-in-training | Geekus Maximus`,
+    description: `AI Engineer | PhD Student | Geekus Maximus`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -34,6 +34,12 @@ module.exports = {
       }
     ],
     projects: [
+      {
+        name: 'ImageBox3: Client-side Whole Slide Image Tiling with GeoTIFF.js',
+        description:
+          'Developed an in-browser tiling mechanism for Whole Slide Images using GeoTIFF.js, leveraging the similarity of WSI data formats and Cloud-Optimized GeoTIFFs.',
+        link: 'https://episphere.github.io/imagebox3',
+      },
       {
         name: 'EpiPath: Digital Pathology in the Browser',
         description:
@@ -78,6 +84,11 @@ module.exports = {
       },
     ],
     publications: [
+      {
+        name: 'ImageBox3: No-Server Tile Serving to Traverse Whole Slide Images on the Web',
+        authors: 'Praphulla MS Bhawsar, Erich Bremer, Máire A Duggan, Stephen Chanock, Montserrat Garcia-Closas, Joel Saltz, Jonas S Almeida, arXiv',
+        link: 'https://arxiv.org/abs/2207.01734v2',
+      },
       {
         name: 'Browser-based data annotation, active learning, and real-time distribution of artificial intelligence models: from tumor tissue microarrays to COVID-19 radiology',
         authors: 'Bhawsar PM, Abubakar M, Schmidt MK, Camp NJ, Cessna MH, Duggan MA, Garcia.Closas M, Almeida JS, Journal of Pathology Informatics 2021',
