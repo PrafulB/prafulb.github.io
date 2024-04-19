@@ -1,4 +1,3 @@
-*.pdf
 .cache
 LICENSE.md
 pnpm-lock.yaml
